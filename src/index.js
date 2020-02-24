@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./features/amazon_fetch/components/App";
+import Layout from "./features/main_front/features/Layout";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Layout />, document.getElementById("root"));

@@ -4,6 +4,7 @@ import Logo from "../../components/logo";
 import Products from "../products";
 import Result from "../../components/result";
 import { getProduct, scrapProduct } from "../../apis/product";
+import "../../assets/css/theme.css";
 
 export default () => {
   const [displayProductsResult, setDisplayProductsResult] = useState(false);
