@@ -6,7 +6,7 @@ window.addEventListener("load", function() {
   let productTitle = document.querySelector("#productTitle").outerText;
   let by = document.querySelector("#bylineInfo").outerText;
   let categorie = category[category.length - 1].outerText;
-  let link = `https://localhost:3000?image=${image}&productTitle=${productTitle}&by=${by}&categorie=${categorie}`;
+  let link = `https://extension-recallit.herokuapp.com?image=${image}&productTitle=${productTitle}&by=${by}&categorie=${categorie}`;
 
   var iframe = document.createElement("iframe");
   iframe.setAttribute(
