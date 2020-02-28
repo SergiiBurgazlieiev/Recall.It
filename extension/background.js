@@ -1,9 +1,6 @@
 /* eslint-disable no-undef */
-console.log("hellooo--->");
 chrome.runtime.onInstalled.addListener(function() {
-  chrome.storage.sync.set({ hide: true }, function() {
-    console.log("Hide image is on");
-  });
+  chrome.storage.sync.set({ hide: true }, function() {});
 });
 
 chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
